@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.mobepic</groupId>
+	<artifactId>gimme20-app</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>apk</packaging>
+
+	<name>mopub-android-sdk</name>
+
+	<properties>
+		<androidApiLevel>4</androidApiLevel>
+		<androidVersion>1.6</androidVersion>
+		<androidApiRevision>r2</androidApiRevision>
+
+		<!-- build settings -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sourceCompatibility>1.6</sourceCompatibility>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.android</groupId>
+			<artifactId>android</artifactId>
+			<version>${androidVersion}_${androidApiRevision}</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- org.json is provided by the android sdk -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20080701</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+        <finalName>${project.artifactId}</finalName>
+        <sourceDirectory>src</sourceDirectory>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                    <artifactId>android-maven-plugin</artifactId>
+                    <version>3.5.0</version>
+
+                    <extensions>true</extensions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <configuration>
+                    <sdk>
+                        <!-- platform or api level (api level 4 = platform 1.6)-->
+                        <platform>${androidApiLevel}</platform>
+                    </sdk>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

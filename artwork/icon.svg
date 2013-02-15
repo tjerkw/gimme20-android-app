@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+
+<svg contentScriptType="text/ecmascript" width="600" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" height="600" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xml:base="file:/Users/tjerk/Downloads/untitled (6).svg" version="1.0">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <title>untitled</title>
+ <defs>
+  <radialGradient spreadMethod="pad" xlink:actuate="onLoad" xlink:type="simple" id="svg_7" xlink:show="other" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <stop offset="0" stop-opacity="0.996094" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </radialGradient>
+  <radialGradient xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.5" cx="0.5" xlink:actuate="onLoad" cy="0.5" id="svg_8" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.992188" stop-color="#ff7070"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </radialGradient>
+  <linearGradient xmlns:xlink="http://www.w3.org/1999/xlink" x2="0.507813" y2="0.945313" xlink:type="simple" xlink:actuate="onLoad" id="svg_9" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.992188" stop-color="#ff7070"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </linearGradient>
+  <linearGradient x1="0" xmlns:xlink="http://www.w3.org/1999/xlink" y1="0.539063" x2="1" y2="0.558594" xlink:type="simple" xlink:actuate="onLoad" id="svg_10" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.992188" stop-color="#ff7070"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </linearGradient>
+  <linearGradient x1="0" xmlns:xlink="http://www.w3.org/1999/xlink" y1="0.539063" x2="1" y2="0.558594" xlink:type="simple" xlink:actuate="onLoad" id="svg_11" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </linearGradient>
+  <radialGradient xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.5" cx="0.5" xlink:actuate="onLoad" cy="0.5" id="svg_12" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.996094" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </radialGradient>
+  <radialGradient xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.5" cx="0.5" xlink:actuate="onLoad" cy="0.5" id="svg_13" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.988281" stop-color="#ff0000"/>
+  </radialGradient>
+  <linearGradient spreadMethod="pad" xlink:actuate="onLoad" xlink:type="simple" id="svg_14" xlink:show="other" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.988281" stop-color="#ff0000"/>
+  </linearGradient>
+  <linearGradient x1="0" xmlns:xlink="http://www.w3.org/1999/xlink" x2="0.640625" y1="0" y2="0.683594" xlink:type="simple" xlink:actuate="onLoad" id="svg_15" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.988281" stop-color="#ff0000"/>
+  </linearGradient>
+  <linearGradient x1="0.492188" xmlns:xlink="http://www.w3.org/1999/xlink" x2="0.496094" y1="0.761719" y2="0" xlink:type="simple" xlink:actuate="onLoad" id="svg_16" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.988281" stop-color="#ff0000"/>
+  </linearGradient>
+  <linearGradient x1="0.492188" xmlns:xlink="http://www.w3.org/1999/xlink" x2="0.214844" y1="0.761719" y2="0" xlink:type="simple" xlink:actuate="onLoad" id="svg_17" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.988281" stop-color="#ff0000"/>
+  </linearGradient>
+  <linearGradient x1="0.492188" xmlns:xlink="http://www.w3.org/1999/xlink" x2="0.214844" y1="0.761719" y2="0" xlink:type="simple" xlink:actuate="onLoad" id="svg_18" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.984375" stop-color="#ef0000"/>
+  </linearGradient>
+  <linearGradient x1="0.636719" xmlns:xlink="http://www.w3.org/1999/xlink" y1="0" x2="0.800781" y2="1" xlink:type="simple" xlink:actuate="onLoad" id="svg_22" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </linearGradient>
+  <radialGradient xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" cx="0.492188" xlink:actuate="onLoad" cy="0.195313" id="svg_23" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="rotate(9.310344827586206,0.4921875,0.1953125) translate(0,0.041756465517241374) scale(1,0.7862068965517242)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.851976" cx="0.492188" xlink:actuate="onLoad" cy="0.195313" id="svg_24" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#ff3d3d"/>
+   <stop offset="0.292969" stop-opacity="0.992188" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="rotate(9,0.4921875,0.1953125) translate(0,0.04101562499999999) scale(1,0.79)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.851976" cx="0.492188" xlink:actuate="onLoad" cy="0.195313" id="svg_25" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#ff3d3d"/>
+   <stop offset="0.292969" stop-opacity="0.992188" stop-color="#ff0000"/>
+   <stop offset="0.785156" stop-opacity="0.996094" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#000000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="rotate(9,0.4921875,0.1953125) translate(0,0.04101562499999999) scale(1,0.79)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="1.239432" cx="0.492188" xlink:actuate="onLoad" cy="0.195313" id="svg_26" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#ff3d3d"/>
+   <stop offset="0.292969" stop-opacity="0.992188" stop-color="#ff0000"/>
+   <stop offset="0.785156" stop-opacity="0.996094" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#000000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="rotate(9,0.4921875,0.1953125) translate(0,0.04101562499999999) scale(1,0.79)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="1" cx="0.492188" xlink:actuate="onLoad" cy="0.195313" id="svg_27" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#ff3d3d"/>
+   <stop offset="0.292969" stop-opacity="0.992188" stop-color="#ff0000"/>
+   <stop offset="0.785156" stop-opacity="0.996094" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#000000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="rotate(9,0.4921875,0.1953125) translate(0,0.04101562499999999) scale(1,0.79)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="1" cx="0.492188" xlink:actuate="onLoad" cy="0.195313" id="svg_28" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#ff3d3d"/>
+   <stop offset="0.292969" stop-opacity="0.992188" stop-color="#ff0000"/>
+   <stop offset="0.785156" stop-opacity="0.996094" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.992188" stop-color="#9b0000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="rotate(9,0.4921875,0.1953125) translate(0,0.04101562499999999) scale(1,0.79)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="1" cx="0.492188" xlink:actuate="onLoad" cy="0.195313" id="svg_29" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#ff3d3d"/>
+   <stop offset="0.292969" stop-opacity="0.992188" stop-color="#ff0000"/>
+   <stop offset="0.785156" stop-opacity="0.996094" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.988281" stop-color="#750000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="rotate(9,0.4921875,0.1953125) translate(0,0.04101562499999999) scale(1,0.79)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="1" cx="0.492188" xlink:actuate="onLoad" cy="0.195313" id="svg_30" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.980469" stop-color="#ff9191"/>
+   <stop offset="0.136719" stop-opacity="0.984375" stop-color="#ff3d3d"/>
+   <stop offset="0.292969" stop-opacity="0.992188" stop-color="#ff0000"/>
+   <stop offset="0.785156" stop-opacity="0.996094" stop-color="#7f0000"/>
+   <stop offset="1" stop-opacity="0.988281" stop-color="#750000"/>
+  </radialGradient>
+  <radialGradient xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" cx="0.515625" xlink:actuate="onLoad" cy="0.25" id="svg_31" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#ffdddd"/>
+   <stop offset="0.359375" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </radialGradient>
+  <radialGradient xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.5" cx="0.097656" xlink:actuate="onLoad" cy="0.496094" id="svg_32" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.984375" stop-color="#ffdddd"/>
+   <stop offset="0.359375" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="translate(0.02222521551724138,0) scale(0.7724137931034483,1)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.790706" cx="0.097656" xlink:actuate="onLoad" cy="0.496094" id="svg_33" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.976563" stop-color="#ff9696"/>
+   <stop offset="0.199219" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="translate(1.54875,0) scale(-0.77,1)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.790706" cx="0.875" xlink:actuate="onLoad" cy="0.511719" id="svg_5" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.976563" stop-color="#ff9696"/>
+   <stop offset="0.199219" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.996094" stop-color="#7f0000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="translate(0.17285112000000002,0) scale(-0.77,1)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.790706" cx="0.097656" xlink:actuate="onLoad" cy="0.496094" id="svg_6" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.976563" stop-color="#ff9696"/>
+   <stop offset="0.339844" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.992188" stop-color="#bf0000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="translate(0.20124999999999998,0) scale(0.77,1)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.790706" cx="0.875" xlink:actuate="onLoad" cy="0.511719" id="svg_19" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.976563" stop-color="#ff9696"/>
+   <stop offset="0.199219" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.992188" stop-color="#c60000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="translate(0.0359375,0) scale(0.77,1)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.790706" cx="0.15625" xlink:actuate="onLoad" cy="0.359375" id="svg_34" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.976563" stop-color="#ff9696"/>
+   <stop offset="0.339844" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.992188" stop-color="#bf0000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="translate(0.2973046875,0) scale(-0.77,1)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.790706" cx="0.167969" xlink:actuate="onLoad" cy="0.71875" id="svg_35" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.976563" stop-color="#ff9696"/>
+   <stop offset="0.339844" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.992188" stop-color="#bf0000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="translate(0.0368359375,0) scale(0.77,1)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.790706" cx="0.160156" xlink:actuate="onLoad" cy="0.601563" id="svg_36" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.976563" stop-color="#ff9696"/>
+   <stop offset="0.339844" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.992188" stop-color="#bf0000"/>
+  </radialGradient>
+  <radialGradient gradientTransform="translate(0.28347656250000003,0) scale(-0.77,1)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" r="0.790706" cx="0.160156" xlink:actuate="onLoad" cy="0.601563" id="svg_37" xlink:show="other" spreadMethod="pad">
+   <stop offset="0" stop-opacity="0.976563" stop-color="#ff9696"/>
+   <stop offset="0.542969" stop-opacity="0.988281" stop-color="#ff0000"/>
+   <stop offset="1" stop-opacity="0.992188" stop-color="#bf0000"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path stroke-linecap="null" transform="rotate(132.332 328.778 333.902)" fill="url(#svg_6)" stroke-linejoin="null" stroke-dasharray="null" id="svg_21" d="m29.547304,333.902893l173.503782,-173.504593l0,86.754684l251.453339,0l0,-86.754684l173.504486,173.504593l-173.504486,173.503204l0,-86.747955l-251.453339,0l0,86.747955l-173.503782,-173.503204z" opacity="0.15" stroke="#ffffff" stroke-width="0"/>
+  <path stroke-linecap="null" transform="rotate(117.377 251.855 287.748)" fill="url(#svg_37)" stroke-linejoin="null" stroke-dasharray="null" d="m-47.375771,287.749023l173.503792,-173.504578l0,86.754684l251.453278,0l0,-86.754684l173.504517,173.504578l-173.504517,173.503204l0,-86.747955l-251.453278,0l0,86.747955l-173.503792,-173.503204z" id="svg_20" stroke="#ffffff" stroke-width="0"/>
+ </g>
+</svg>
