@@ -6,14 +6,47 @@ import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
 import android.widget.Toast;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.Random;
 
 public class PushUpCounterActivity extends Activity implements PushUpListener, OnInitListener {
 	private static final int TTS_CHECK = 1;
     private TextToSpeech tts;
     private boolean ttsLoaded = false;
+    private Timer timer;
+    private Random random = new Random();
 
     private PushUpDetector detector;
 	private PushUpState state = new PushUpState();
+
+    private String[] startText = {
+        "Ga je nog beginnen?",
+        "Begin met opdrukken!",
+        "Kom op, Je kunt het!",
+        "Kweek die spieren",
+        "Kerel kom op",
+        "Doe je shit",
+        "Gast"
+    };
+    private String[] goodText = {
+        "Goedzo",
+        "Top",
+        "Held",
+        "Klasse",
+        "Cool"
+    };
+    private String[] continueText = {
+        "Ga door",
+        "Niet ophouden",
+        "Geef je op?",
+        "Kom op!",
+        "Doorgaan kerel!"
+    };
+
+    private final String getRandom(String[] texts) {
+        return texts[random.nextInt(texts.length)];
+    }
 	
     /** Called when the activity is first created. */
     @Override
@@ -59,6 +92,16 @@ public class PushUpCounterActivity extends Activity implements PushUpListener, O
     public void onResume() {
     	super.onResume();
     	detector.onStart(this);
+        if (timer != null) {
+            timer.cancel();
+        }
+        timer = new Timer();
+        timer.scheduleAtFixedRate(new TimerTask() {
+            public void run() {
+
+                tts.speak(getRandom(startText), TextToSpeech.QUEUE_FLUSH, null);
+            }
+        }, 4000, 4000 + random.nextInt(6000));
     }
     
     public void onPause() {
@@ -76,8 +119,21 @@ public class PushUpCounterActivity extends Activity implements PushUpListener, O
 	@Override
 	public void onPushUp() {
 		state.count++;
+        if (timer != null) {
+            timer.cancel();
+        }
+        timer = new Timer();
+        timer.scheduleAtFixedRate(new TimerTask() {
+            public void run() {
+                tts.speak(getRandom(continueText), TextToSpeech.QUEUE_FLUSH, null);
+            }
+        }, 2500, 3000 + random.nextInt(6000));
 		if(ttsLoaded) {
-			tts.speak(state.count + "", TextToSpeech.QUEUE_FLUSH, null);
+            String extraText = "";
+            if (state.count % 10 == 0) {
+                extraText = ", " + getRandom(goodText);
+            }
+			tts.speak(state.count + extraText, TextToSpeech.QUEUE_FLUSH, null);
 		}
 	}
 

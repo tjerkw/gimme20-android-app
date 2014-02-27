@@ -12,6 +12,8 @@ public class AccelerometerPushUpDetector extends SensorBasedPushUpListener {
 	private CircularBuffer buffer = new CircularBuffer();
 	private FloatBuffer sinus = FloatBuffer.allocate(20);
 	private float[] values = new float[50];
+	private static long lastT;
+	private static final int MIN_TIME_DELTA = 50;
 	
 	@Override
 	public int getSensorType() {
@@ -77,7 +79,9 @@ public class AccelerometerPushUpDetector extends SensorBasedPushUpListener {
 		}
 		sinus.position(0);
 		double distance = squaredEuclideanDistanceFromSinus(sinus, n, max);
-		if(distance <= 3) {
+		int timeDelta = (int)(System.currentTimeMillis() - lastT);
+		lastT = System.currentTimeMillis();
+		if(distance <= 3 && timeDelta > MIN_TIME_DELTA) {
 			Log.d("AccelerometerPushUpDetector", "d: "+distance+", max: "+max+", n: "+n);
 			buffer.clear();
 			this.onPushUpDetected();
